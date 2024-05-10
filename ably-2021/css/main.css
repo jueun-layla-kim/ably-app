@@ -1,0 +1,233 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    width: 375px;
+    height: 750px;
+    margin: 30px auto;
+    color: #666;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* header */
+.header {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    background-color: #eee;
+    margin: 7px 12px;
+    width: 282px;
+    height: 36px;
+    border-radius: 8px;
+    display: flex;
+    gap: 8px;
+}
+
+.search i {
+    font-size: 15px;
+    margin: auto 0 auto 14px;
+}
+
+.search p {
+    font-size: 12px;
+    font-weight: bold;
+    margin: auto 0;
+}
+
+.icons {
+    margin: 0 14px;
+    width: 53px;
+    display: flex;
+    gap: 14px;
+    font-size: 20px;
+}
+
+
+/* tab */
+.tab {
+    height: 40px;
+    display: flex;
+    font-size: 14px;
+    gap: 20px;
+    padding: 8px 0 12px 14px;
+}
+
+.tab li:first-child {
+    color: #222;
+    font-weight: bold;
+    display: block;
+    height: 32px;
+    border-bottom: 2px solid #222;
+}
+
+
+/* banner */
+.banner img {
+    height: 188px;
+}
+
+
+/* menu */
+.menu {
+    height: 158px;
+    border-bottom: 1px solid #eee;
+    padding-left: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.menu li {
+    text-align: center;
+    width: 42px;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.menu img {
+    width: 34px;
+    height: 34px;
+}
+
+.menu p {
+    font-size: 10px;
+}
+
+
+/* items */
+.items {
+    height: 254px;
+    overflow: hidden;
+}
+
+.items_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 14px 25px;
+}
+
+.items_title h3 {
+    color: #222;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.items_title > p {
+    color: #ddd;
+    font-size: 12px;
+}
+
+.items ul {
+    margin: 0 12px;
+    display: flex;
+    gap: 12px;
+}
+
+.items li div {
+    position: relative;
+    background-color: #eee;
+    width: 110px;
+    height: 132px;
+    border-radius: 5px;
+}
+
+.items li img {
+    width: 110px;
+    height: 130px;
+    object-fit: cover;
+}
+
+.items li i {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 0 2px 2px rgba(0,0,0,0.25);
+}
+
+.items li .delivery {
+    width: 46px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #f2f6ff;
+    color: #5b5dfe;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.items li h4 {
+    color: #222;
+    font-size: 12px;
+    margin: 2px 0;
+}
+
+.items li h4 span {
+    color: #fe4646;
+}
+
+.items li h5 {
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.items li p {
+    font-size: 10px;
+}
+
+
+/* footer */
+.footer {
+    height: 60px;
+    border-top: 1px solid #ddd;
+    display: flex;
+    color: #999;
+}
+
+.footer li {
+    flex: 1;
+    margin: auto 12px;
+}
+
+.footer li:first-child {
+    color: #fe4646;
+}
+
+.footer li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer i {
+    font-size: 20px;
+}
+
+.footer span {
+    font-size: 10px;
+}
